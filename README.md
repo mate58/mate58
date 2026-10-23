@@ -1,94 +1,86 @@
 <div align="center">
 
-  <!-- Banner Superior Estilo Pipeline / Automatización -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:0066ff,100:ea4b71&height=220&section=header&text=mate58&fontSize=65&fontColor=ffffff&fontAlignY=35&desc=Workflow%20Architect%20%7C%20Power%20Platform%20%26%20n8n%20%7C%20Homelab&descAlignY=60&descSize=18&animation=fadeIn" width="100%" alt="Automation Banner" />
+  <!-- Banner Superior Estilo Hacker / Terminal -->
+  <img src="https://capsule-render.vercel.app/api?type=shark&color=0:050505,50:0a192f,100:00ff41&height=200&section=header&text=root@mate58:~%23&fontSize=55&fontColor=00ff41&fontAlignY=40&desc=%5B%20Automation%20Specialist%20%7C%20Homelab%20Admin%20%7C%20Cybersecurity%20%5D&descAlignY=68&descSize=16&animation=blinking" width="100%" alt="Terminal Banner" />
 
-  <!-- Simulador de Logs de Flujo de Trabajo -->
+  <!-- Consola Interactiva Escribiendo en Vivo -->
   <a href="https://github.com/mate58">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=800&color=EA4B71&center=true&vCenter=true&width=800&lines=%5BTRIGGER%5D+Webhook+received+->+Starting+n8n+workflow...;%5BPROCESS%5D+Connecting+Microsoft+Power+Platform+pipelines...;%5BSERVER%5D+Deploying+Docker+containers+in+local+Homelab...;%5BINTERESTS%5D+Process+Automation+%26+Cybersecurity+Exploration" alt="Workflow Logs" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=800&color=00FF41&center=true&vCenter=true&width=800&lines=root%40mate58%3A~%23+./init_automation_workflows.sh...;root%40mate58%3A~%23+systemctl+status+homelab-containers+%5BOK%5D;root%40mate58%3A~%23+tail+-f+/var/log/interests/cybersecurity_and_automation.log" alt="Terminal Typing" />
   </a>
 
   <br/>
 
-  <!-- Nodos de Perfil -->
-  <img src="https://img.shields.io/badge/Node_1-n8n_Workflows-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
-  <img src="https://img.shields.io/badge/Node_2-Power_Platform-0066FF?style=for-the-badge" alt="Power Platform" />
-  <img src="https://img.shields.io/badge/Node_3-Homelab_Server-10B981?style=for-the-badge&logo=docker&logoColor=white" alt="Homelab" />
-  <img src="https://img.shields.io/badge/Focus-Automation_%26_Cybersecurity-8B5CF6?style=for-the-badge" alt="Interests" />
+  <!-- Badges de Estado -->
+  <img src="https://img.shields.io/badge/STATUS-ONLINE-00ff41?style=for-the-badge&labelColor=050505" alt="Status" />
+  <img src="https://img.shields.io/badge/EXPERIENCE-AUTOMATION%20%26%20HOMELAB-00b4d8?style=for-the-badge&labelColor=050505" alt="Experience" />
+  <img src="https://img.shields.io/badge/INTERESTS-CYBERSECURITY%20%26%20AUTOMATION-ff003c?style=for-the-badge&labelColor=050505" alt="Interests" />
 
 </div>
 
 ---
 
-### 🔄 Arquitectura de mi Perfil (Workflow Diagram)
+### `cat /etc/mate58/profile.conf`
 
-```mermaid
-flowchart LR
-    A(["⚡ Trigger: Procesos Manuales"]) --> B["⚙️ Motor de Automatización<br/>(n8n & Power Platform)"]
-    B --> C["🏠 Infraestructura Propia<br/>(Homelab / Docker / Linux)"]
-    C --> D(["🚀 Intereses Continuos<br/>(Automatización & Ciberseguridad)"])
+```ini
+[USER_INFO]
+user = mate58
+role = Process Automation & Workflow Specialist
+environment = Self-Hosted Homelab (Linux / Docker)
 
-    style A fill:#1e293b,stroke:#0066ff,stroke-width:2px,color:#fff
-    style B fill:#1e293b,stroke:#ea4b71,stroke-width:2px,color:#fff
-    style C fill:#1e293b,stroke:#10b981,stroke-width:2px,color:#fff
-    style D fill:#1e293b,stroke:#8b5cf6,stroke-width:2px,color:#fff
+[EXPERIENCE_MODULES]
+automation_engines = n8n, Microsoft Power Platform (Power Automate, Power Apps, Power BI)
+infrastructure     = Ubuntu Server, Docker Compose, Reverse Proxy, Local Networking
+scripting          = Python, Bash, REST APIs, Webhooks
+
+[ACTIVE_INTERESTS]
+primary_focus_1    = Ciberseguridad (Hardening, Red/Blue Team Concepts, Network Security)
+primary_focus_2    = Automatización Avanzada (Orquestación de Sistemas, Scraping, Bots)
+lab_testing        = Despliegue seguro de servicios autoalojados y aislamiento de contenedores
 ```
 
 ---
 
-### 📄 Payload de Configuración // `mate58_workflow.json`
+### `nmap -sV localhost` // Puertos y Servicios Activos
 
-```json
-{
-  "user": "mate58",
-  "status": "Active",
-  "experience": {
-    "core": "Automatización y Mejora de Procesos",
-    "platforms": ["n8n", "Power Automate", "Power Apps", "Power BI"],
-    "capabilities": ["Integración de APIs", "Web Scraping", "Orquestación de Datos", "Bots"]
-  },
-  "homelab_infrastructure": {
-    "status": "Self-Hosted & Running",
-    "stack": ["Docker", "Ubuntu Server", "Linux", "Nginx", "Cloudflare"]
-  },
-  "current_interests": [
-    "Automatización de procesos e hiperautomatización",
-    "Ciberseguridad, hardening de servidores y seguridad en redes"
-  ]
-}
-```
+| Puerto / Servicio | Estado | Descripción Operativa | Stack Principal |
+| :--- | :---: | :--- | :--- |
+| **`443/tcp` Automatización** | `OPEN` | Desarrollo de flujos de trabajo automatizados, integración de APIs, extracción de datos y optimización de procesos corporativos. | `n8n` `Power Platform` `Python` |
+| **`22/tcp` Homelab** | `OPEN` | Administración de servidor propio, despliegue de contenedores Docker, gestión de redes locales y túneles seguros. | `Ubuntu` `Docker` `Nginx` `Linux` |
+| **`8080/tcp` Intereses** | `LISTENING` | Investigación continua en **Ciberseguridad** (protección de infraestructura, análisis de vulnerabilidades) y nuevas tecnologías de **Automatización**. | `SecOps` `Hardening` `Workflows` |
 
 ---
 
-### 🛠️ Nodos y Conectores (Tech Stack)
+### `ls -la /usr/bin/tools` // Arsenal Tecnológico
 
 <div align="center">
 
-  #### Ecosistema de Automatización & Negocio
-  <img src="https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white" alt="n8n" />
-  <img src="https://img.shields.io/badge/Power_Automate-0066FF?style=for-the-badge" alt="Power Automate" />
-  <img src="https://img.shields.io/badge/Power_Apps-742774?style=for-the-badge" alt="Power Apps" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&labelColor=000000" alt="Power BI" />
-  <img src="https://img.shields.io/badge/REST_APIs_%26_Webhooks-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="APIs" />
-
-  #### Homelab, Desarrollo & Despliegue
+  **Automatización & Ecosistema Corporativo**
   <br/>
-  <img src="https://skillicons.dev/icons?i=py,bash,docker,ubuntu,linux,nginx,cloudflare,postgres,git,vercel&theme=dark" alt="Tech Stack Icons" />
+  <img src="https://img.shields.io/badge/n8n-050505?style=for-the-badge&logo=n8n&logoColor=00ff41" alt="n8n" />
+  <img src="https://img.shields.io/badge/Power_Automate-050505?style=for-the-badge&logoColor=00ff41" alt="Power Automate" />
+  <img src="https://img.shields.io/badge/Power_Apps-050505?style=for-the-badge&logoColor=00ff41" alt="Power Apps" />
+  <img src="https://img.shields.io/badge/Power_BI-050505?style=for-the-badge&logoColor=00ff41" alt="Power BI" />
+  <img src="https://img.shields.io/badge/Webhooks_%26_APIs-050505?style=for-the-badge&logo=fastapi&logoColor=00ff41" alt="APIs" />
+
+  <br/>
+
+  **Homelab, Scripting & Infraestructura**
+  <br/><br/>
+  <img src="https://skillicons.dev/icons?i=py,bash,docker,ubuntu,linux,nginx,cloudflare,postgres,git,vercel&theme=dark" alt="Tech Icons" />
 
 </div>
 
 ---
 
-### 📊 Métricas de Ejecución (GitHub Analytics)
+### `htop` // Telemetría del Sistema (GitHub Stats)
 
 <div align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mate58&theme=tokyonight" width="100%" alt="GitHub Summary" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mate58&theme=github_dark" width="100%" alt="GitHub Summary" />
 </div>
 
 <div align="center">
-  <img height="165em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mate58&theme=tokyonight" alt="Top Languages" />
-  <img height="165em" src="https://streak-stats.demolab.com/?user=mate58&theme=tokyonight&background=0D1117&border=ea4b71&stroke=ea4b71&ring=ea4b71&fire=0066ff&currStreakLabel=ea4b71" alt="GitHub Streak" />
+  <img height="165em" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mate58&theme=github_dark" alt="Top Languages" />
+  <img height="165em" src="https://streak-stats.demolab.com/?user=mate58&theme=dark&background=0D1117&border=00ff41&stroke=00ff41&ring=00ff41&fire=00ff41&currStreakLabel=00ff41" alt="GitHub Streak" />
 </div>
 
-<!-- Banner Inferior -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,45:0066ff,100:ea4b71&height=110&section=footer" width="100%" alt="Footer Banner" />
+<img src="https://capsule-render.vercel.app/api?type=shark&color=0:050505,50:0a192f,100:00ff41&height=90&section=footer" width="100%" alt="Footer" />
